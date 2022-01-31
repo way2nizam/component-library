@@ -1,0 +1,83 @@
+:root {
+  --white-color: white;
+  --back-color: black;
+  --grey-color: #9a9a9a;
+
+  --border-color: #918ca4;
+  --headings-color: #313131;
+  --headings-lite-color: #5a5a5a;
+
+  --text-lite-color: lightgrey;
+
+  --primary-color: #00b5ef;
+  --primary-hover-color: #2caeda;
+  --secondary-color: #f4b41a;
+  --accent-color: #3b82f6;
+  --danger-color: #ff3b30;
+  --danger-bg: #f8d7da;
+  --success-color: green;
+}
+
+Action *,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: var(--body-bg-color);
+  margin: 2rem;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* alert CSS */
+
+.alert {
+  border-radius: 0.25rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.alert-basic {
+  color: var(--white-color);
+  background-color: var(--text-lite-color);
+}
+.alert-primary {
+  color: white;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.alert-secondary {
+  color: white;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.alert-danger {
+  color: white;
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+
+.alert-success {
+  color: white;
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+/* Alert CSS End Here */
