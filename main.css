@@ -12,13 +12,14 @@
   --primary-color: #00b5ef;
   --primary-hover-color: #2caeda;
   --secondary-color: #f4b41a;
+  --secondary-hover-color: #f3bf45;
   --accent-color: #3b82f6;
   --danger-color: #ff3b30;
   --danger-bg: #f8d7da;
   --success-color: green;
 }
 
-Action *,
+*,
 *::after,
 *::before {
   box-sizing: border-box;
@@ -81,3 +82,118 @@ h1 {
 }
 
 /* Alert CSS End Here */
+
+/* Button CSS starts Here */
+
+.btn {
+  border-radius: 40px;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  margin: 1rem 0;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-hover-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.btn-accent {
+  background-color: goldenrod;
+  color: white;
+}
+
+.btn-block {
+  width: 100%;
+  display: inline-block;
+}
+
+.btn-outline {
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.btn-outline:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.btn-float-left {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+
+.btn-float-right {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* Button CSS End Here */
+
+/* Inputs CSS Start Here */
+
+.input {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--headings-color);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1rem 2rem;
+  min-width: 3rem;
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+.input-group {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  display: flex;
+}
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+}
+
+.input-group button {
+  margin: 0.1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.6rem;
+  }
+}
+
+/* Inputs CSS Ends Here */
