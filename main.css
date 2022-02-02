@@ -236,19 +236,19 @@ h1 {
   transform: scale(1.5);
 }
 
-.sm {
+.avatar-sm {
   font-size: 1.5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
 
-.md {
+.avatar-md {
   font-size: 3rem;
   width: 4rem;
   height: 4rem;
 }
 
-.lg {
+.avatar-lg {
   font-size: 4rem;
   width: 6rem;
   height: 6rem;
@@ -341,7 +341,7 @@ h1 {
   font-size: 1.6rem;
 }
 
-.badge .badge-red {
+.badge-red {
   color: white;
   background-color: var(--danger-color);
 }
