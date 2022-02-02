@@ -1,0 +1,63 @@
+/* avatar CSS Start Here */
+
+.avatar {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: var(--grey-color);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.avatar-box {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  margin: 0;
+}
+
+.avatar-img {
+  height: 100%;
+  border-radius: 100%;
+}
+
+.avatar-img {
+  transition: transform 0.2s;
+}
+
+.avatar-img:hover {
+  transform: scale(1.5);
+}
+
+.avatar-sm {
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.avatar-md {
+  font-size: 3rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-lg {
+  font-size: 4rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-primary {
+  background-color: var(--primary-color);
+}
+
+.avatar-secondary {
+  background-color: var(--secondary-color);
+}

@@ -1,0 +1,36 @@
+/* Badge CSS Start Here */
+
+.badge {
+  position: relative;
+  display: inline-block;
+}
+
+.badge-counter {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: center;
+  height: 1rem;
+  width: 1rem;
+  padding: 0.2rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.badge-top-right {
+  top: 1%;
+  right: 1%;
+}
+
+.badge-red {
+  color: white;
+  background-color: var(--danger-color);
+}
+
+.badge-green {
+  color: white;
+  background-color: green;
+}
+
+/* Badge CSS Ends Here */
