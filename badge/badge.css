@@ -23,19 +23,7 @@
   right: 1%;
 }
 
-.badge-sm {
-  font-size: 0.8rem;
-}
-
-.badge-md {
-  font-size: 1rem;
-}
-
-.badge-lg {
-  font-size: 1.6rem;
-}
-
-.badge .badge-red {
+.badge-red {
   color: white;
   background-color: var(--danger-color);
 }
