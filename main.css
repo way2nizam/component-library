@@ -264,46 +264,6 @@ h1 {
 
 /* Avatar CSS Ends Here */
 
-/* alert CSS */
-
-.alert {
-  border-radius: 0.25rem;
-  border: 1px solid transparent;
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-  padding: 1rem;
-}
-
-.alert-basic {
-  color: var(--white-color);
-  background-color: var(--text-lite-color);
-}
-.alert-primary {
-  color: white;
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
-.alert-secondary {
-  color: white;
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
-}
-
-.alert-danger {
-  color: white;
-  background-color: var(--danger-color);
-  border-color: var(--danger-color);
-}
-
-.alert-success {
-  color: white;
-  background-color: var(--success-color);
-  border-color: var(--success-color);
-}
-
-/* Alert CSS End Here */
-
 /* Badge CSS Start Here */
 
 .badge {
