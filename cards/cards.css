@@ -1,0 +1,81 @@
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  gap: 4rem;
+  justify-content: center;
+}
+/* // only for displaying multiple cards on same page end */
+
+.card {
+  box-shadow: 0 0.5rem 1rem 0 lightgray;
+  cursor: pointer;
+  width: 35rem;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.card__title {
+  color: var(--color-headings);
+  padding: 1rem 1.5rem;
+}
+
+.card__desc {
+  padding: 1rem 1.5rem;
+}
+
+.card__footer {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__icon {
+  padding: 1rem;
+}
+
+.card__btn {
+  background-color: white;
+  border: 0;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.icon-hidden {
+  visibility: hidden;
+}
+
+.btn-hidden {
+  visibility: hidden;
+}
+
+.text-over-media-position {
+  position: relative;
+}
+
+.text-over-media {
+  position: absolute;
+  top: 30%;
+}
+
+.text-over-media > * {
+  color: #fff;
+}
+
+.card__desc-hidden {
+  display: none;
+}
+
+/* card - horizontal image and text CSS */
+
+.hit-header {
+  display: flex;
+}
+
+.hit-image {
+  width: 12rem;
+  height: 12rem;
+}
