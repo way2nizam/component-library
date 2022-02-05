@@ -12,7 +12,7 @@
   --color-headings: #313131;
   --color-body: #323232;
 
-  --color-light-grey: #e5e7eb;
+  --color-light-grey: #f8f9fa;
 }
 
 *,
@@ -501,7 +501,7 @@ input::placeholder {
 
 .nav__item > a {
   color: var(--color-headings);
-  padding: 0.5rem 01rem;
+  padding: 1rem 1.5rem;
   border-radius: 5px;
   transition: color 0.3s;
 }
