@@ -1,0 +1,83 @@
+@import url(./main.css);
+
+/* Header Navbar */
+.header {
+  margin: 1rem 0;
+}
+
+.logo {
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo:hover {
+  color: var(--color-headings);
+}
+
+/* Hero Container */
+
+.hero__container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.hero {
+  max-width: 75rem;
+}
+
+.hero__image {
+  max-width: 25rem;
+  margin: 2.5rem;
+}
+
+.hero__description {
+  margin: 2rem 1rem;
+}
+
+.hero-btn {
+  margin: 0.3rem;
+  display: inline-block;
+  width: 170px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 5rem;
+  }
+}
+
+/* Footer */
+
+.footer-container {
+  margin-top: 10rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  background-color: var(--color-light-grey);
+}
+
+.footer__brand {
+  color: #fff;
+}
+
+.footer__copyright {
+  padding: 1rem 0;
+}
+
+.footer__icon {
+  padding: 0.5rem;
+}
+
+.footer__icon:hover {
+  background-color: --color-light-grey;
+  opacity: 0.5;
+}
