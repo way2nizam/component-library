@@ -7,23 +7,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Simple HTML/CSS Component Library">
     <meta name="keywords" content="html css component library, html, css, javascript, component library">
-    <meta name="author" content="Mohd Nizamuddin">
+    <meta name="author" content="Nizam">
     <title>Nyaa UI - A Simple HTML/CSS Component Librray</title>
-    <link rel="shortcut icon" href="./images/nyaa-ui-favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="../images/nyaa-ui-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./landingpage.css">
+
 </head>
 
 <body>
-    <main class="main">
-        <h1>
-            <span>nyaa-ui</span> is coming soon !
-        </h1>
-        <p>Sorry for the inconvenience, but I'm building something very special. If you require any further information,
-            feel free to <a href="mailto:nizamy710@gmail.com">contact me.</a>
-            otherwise I'll be back online shortly!</p>
 
-        <p> - Nizam</p>
-    </main>
+    <header class="header">
+
+        <nav class="nav collapsible">
+            <a href="/" class="btn logo">nyaa-UI
+            </a>
+
+            <img src="./images/list.svg" alt="Menu" class="img img--small img--round nav__toggler">
+
+            <ul class="list nav__list collapsible__content">
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">About</a></li>
+                <li class="nav__item"><a href="#">Why?</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <div class="hero__container">
+        <div class="hero">
+            <img class="img hero__image" src="./images/hero-image.svg" alt="Hero Image">
+
+            <h1 class="hero__title">nyaa-UI</h1>
+            <div class="hero__main">
+                <p class="hero__description">Quickly design your websites with
+                    nyaa-UI. A very basic HTML/CSS component library. It is a basic the front-end prebuilt components
+                    using Flex, and responsive Grid system.</p>
+
+                <div class="button-section">
+
+                    <div class="hero-btn">
+                        <a href="#" class="btn btn--block btn--primary">Get Started</a>
+                    </div>
+
+                    <div class="hero-btn">
+                        <a href="#" class="btn btn--block btn-outline">Documentation</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-container">
+        <footer class="footer">
+            <div class="footer__brand">
+                <p class="footer__copyright">Made with Love ♥ | Feel free to copy.</p>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/way2nizam" class="footer__icon"><img src="./images/github.svg" alt="">
+                </a>
+                <a href="https://twitter.com/way2nizam" class="footer__icon"><img src="./images/twitter.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/nizamy710/" class="footer__icon"><img src="./images/linkedin.svg"
+                        alt="">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
 
 </body>
 
