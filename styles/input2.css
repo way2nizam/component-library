@@ -1,0 +1,47 @@
+/* Inputs CSS Start Here */
+
+.input {
+  border-radius: 30px;
+  border: 1px solid var(--color-grey-light-4);
+  color: var(--headings-color);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1rem 2rem;
+  min-width: 3rem;
+}
+
+::placeholder {
+  color: var(--color-grey-light-4);
+}
+
+.input-error {
+  outline: 1px solid var(--color-accent);
+}
+
+.input-success {
+  outline: 1px solid var(--color-secondary);
+}
+
+.input-group {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+}
+
+.input-group button {
+  margin: 0.1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.6rem;
+  }
+}
+
+/* Inputs CSS Ends Here */

@@ -1,0 +1,68 @@
+/* Icons */
+
+/* here we have used px beacuse i want to fix the size not relative */
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-xs {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-s {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-m {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-l {
+  width: 64px;
+  height: 64px;
+}
+
+.icon-xl {
+  width: 80px;
+  height: 80px;
+}
+
+.icon-xxl {
+  width: 96px;
+  height: 96px;
+}
+
+.icon-primary {
+  fill: var(--color-primary);
+}
+
+.icon-secondary {
+  fill: var(--color-secondary);
+}
+
+.icon-accent {
+  fill: var(--color-accent);
+}
+
+.icon-white {
+  fill: #fff;
+}
+
+.icon-grey {
+  fill: var(--color-grey-dark-4);
+}
+
+.icon-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-grey-dark-4);
+}

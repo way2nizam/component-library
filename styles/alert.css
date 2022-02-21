@@ -1,0 +1,34 @@
+/* alert CSS */
+
+.alert {
+  border-radius: 0.25rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.alert-basic {
+  color: var(--color-body);
+  background-color: var(--color-grey-light-2);
+}
+.alert-primary {
+  color: white;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.alert-secondary {
+  color: white;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.alert-danger {
+  color: white;
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* Alert CSS End Here */

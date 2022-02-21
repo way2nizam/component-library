@@ -1,0 +1,16 @@
+.example-container {
+  max-width: 90%;
+  margin: 3rem auto;
+  font-size: 2rem;
+}
+
+.example-div {
+  margin: 2rem;
+}
+
+.carbon-code {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

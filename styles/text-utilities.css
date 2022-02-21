@@ -1,0 +1,156 @@
+@import url(./base.css);
+
+/* heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: var(--color-headings);
+}
+
+h1,
+.h1 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 500;
+}
+h2,
+.h2 {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  font-weight: 500;
+}
+h3,
+.h3 {
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  font-weight: 500;
+}
+h4,
+.h4 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+}
+h5,
+.h5 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+h6,
+.h6 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+/* text color*/
+
+p,
+.p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--color-headings);
+}
+
+.text-grey {
+  color: var(--color-grey-dark-4);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+/* text sizes */
+
+.text-xs {
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  color: inherit;
+}
+
+.text-sm {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: inherit;
+}
+
+.text-md {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: inherit;
+}
+
+.text-lg {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: inherit;
+}
+
+.text-xl {
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  color: inherit;
+}
+
+/* text position */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-strike-through {
+  text-decoration: line-through;
+}
+
+/* Font Weight */
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-black {
+  font-weight: 900;
+}

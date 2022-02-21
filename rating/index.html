@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert | nyaa-UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+
+            <a href="/"><img src="../images/nyaa-ui.svg" alt="nyaa-UI Logo" class="logo"></a>
+
+            <nav class="user-nav">
+                <a href="https://github.com/way2nizam">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-github">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/way2nizam">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/nizamy710/">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="/docs" class="side-nav__link">
+                            Installation
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/avatar" class="side-nav__link">
+                            Avatar
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/alert" class="side-nav__link">
+                            Alert
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/badge" class="side-nav__link">
+                            Badge
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/button" class="side-nav__link">
+                            Button
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/card" class="side-nav__link">
+                            Card
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/image-component" class="side-nav__link">
+                            Image
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/input" class="side-nav__link">
+                            Input
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/text-utilities" class="side-nav__link">
+                            Text Utilities
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/list" class="side-nav__link">
+                            Lists </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/navigation" class="side-nav__link">
+                            Navigation
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/modal" class="side-nav__link">
+                            Modal
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="/rating" class="side-nav__link">
+                            Rating
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/toast" class="side-nav__link">
+                            Toast
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/grid" class="side-nav__link">
+                            Grid
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="main-content">
+                <div class="example-container">
+
+                    <h1 class="my-2">Rating</h1>
+                    <p class="my-1">This is a rating component used to rate like for e-commerce products.</p>
+
+                    <div class="code-snippet my-2">
+                        <div class="rating">
+                            <svg class="rating__icon-star checked">
+                                <use href="/images/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="rating__icon-star checked">
+                                <use href="/images/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="rating__icon-star">
+                                <use href="/images/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="rating__icon-star">
+                                <use href="/images/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="rating__icon-star">
+                                <use href="/images/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=665&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%253Csvg%2520class%253D%2522rating__icon-star%2520checked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522%252Fimages%252Fsprite.svg%2523icon-star%2522%253E%253C%252Fuse%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253Csvg%2520class%253D%2522rating__icon-star%2520checked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522%252Fimages%252Fsprite.svg%2523icon-star%2522%253E%253C%252Fuse%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253Csvg%2520class%253D%2522rating__icon-star%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522%252Fimages%252Fsprite.svg%2523icon-star%2522%253E%253C%252Fuse%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253Csvg%2520class%253D%2522rating__icon-star%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522%252Fimages%252Fsprite.svg%2523icon-star%2522%253E%253C%252Fuse%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253Csvg%2520class%253D%2522rating__icon-star%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522%252Fimages%252Fsprite.svg%2523icon-star%2522%253E%253C%252Fuse%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%253C%252Fdiv%253E"
+                            style="width: 665px; height: 487px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__brand">
+                <p class="footer__copyright">Made with Love ♥ | Feel free to copy.</p>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/way2nizam" class="icon icon--primary"> <svg class="user-nav__icon">
+                        <use xlink:href="images/sprite.svg#icon-github">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/way2nizam" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-twitter">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/nizamy710/" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-linkedin">
+                        </use>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
