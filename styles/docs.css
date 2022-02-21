@@ -1,0 +1,43 @@
+/* Side-Navigation */
+
+.side-nav {
+  font-size: 1.4rem;
+  list-style: none;
+  margin-top: 3.5rem;
+}
+
+.side-nav__item:hover {
+  background-color: var(--color-primary);
+}
+
+.side-nav__item--active {
+  background-color: var(--color-primary);
+}
+
+.side-nav__link:link,
+.side-nav__link:visited {
+  color: var(--color-grey-light-1);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 1.5rem 3rem;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Example Div */
+
+.code-snippet {
+  padding: 2rem;
+  background-color: var(--color-body);
+  text-align: left;
+  font-size: 2rem;
+}
+
+.code-snippet2 {
+  padding: 2rem;
+  background-color: var(--color-grey-light-3);
+  text-align: left;
+  font-size: 2rem;
+}

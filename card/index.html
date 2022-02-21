@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | nyaa-UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+
+            <a href="/"><img src="../images/nyaa-ui.svg" alt="nyaa-UI Logo" class="logo"></a>
+
+            <nav class="user-nav">
+                <a href="https://github.com/way2nizam">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-github">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/way2nizam">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/nizamy710/">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+            </nav>
+        </header>
+
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="/docs" class="side-nav__link">
+                            Installation
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/avatar" class="side-nav__link">
+                            Avatar
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/alert" class="side-nav__link">
+                            Alert
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/badge" class="side-nav__link">
+                            Badge
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/button" class="side-nav__link">
+                            Button
+                        </a>
+                    </li>
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="/card" class="side-nav__link">
+                            Card
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/image-component" class="side-nav__link">
+                            Image
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/input" class="side-nav__link">
+                            Input
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/text-utilities" class="side-nav__link">
+                            Text Utilities
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/list" class="side-nav__link">
+                            Lists </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/navigation" class="side-nav__link">
+                            Navigation
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/modal" class="side-nav__link">
+                            Modal
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/rating" class="side-nav__link">
+                            Rating
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/toast" class="side-nav__link">
+                            Toast
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/grid" class="side-nav__link">
+                            Grid
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="main-content">
+                <div class="example-container">
+                    <div class="cards">
+                        <!-- // card 1 - Basic -->
+
+                        <div class="card card-color">
+                            <div class="card__img-box">
+                                <img src="../images/card-image.jpg" alt="Random Images">
+                            </div>
+                            <div class="card__title">
+                                <h5>Basic Card Components</h5>
+                                <p>by Mohd Nizam</p>
+                            </div>
+                            <div class="card__desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                                </p>
+                            </div>
+                            <div class="card__footer">
+                                <button class="card__btn">READ</button>
+                                <button class="card__btn">BOOKMARK</button>
+                                <span class="card__icon"><i class="far fa-heart"></i></span>
+                                <span class="card__icon"><i class="fas fa-share-alt"></i></span>
+                                <span class="card__icon"><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- // card 2 - basic with only button -->
+
+                        <div class="card card-color">
+
+                            <div class="card__img-box">
+                                <img src="../images/card-image.jpg" alt="Random Images">
+                            </div>
+
+                            <div class="card__title">
+                                <h5>Basic Card w/ Only Buttons</h5>
+                                <p>by Mohd Nizam</p>
+                            </div>
+
+                            <div class="card__desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                                </p>
+                            </div>
+                            <div class="card__footer">
+                                <button class="card__btn">READ</button>
+                                <button class="card__btn">BOOKMARK</button>
+                                <span class="card__icon icon-hidden"><i class="far fa-heart"></i></span>
+                                <span class="card__icon icon-hidden"><i class="fas fa-share-alt"></i></span>
+                                <span class="card__icon icon-hidden"><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- // card 3 - basic with only icon -->
+
+                        <div class="card card-color">
+
+                            <div class="card__img-box">
+                                <img src="../images/card-image.jpg" alt="Random Images">
+                            </div>
+
+                            <div class="card__title">
+                                <h5>Basic Card w/ Only Icons</h5>
+                                <p>by Mohd Nizam</p>
+                            </div>
+
+                            <div class="card__desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                                </p>
+                            </div>
+                            <div class="card__footer">
+                                <button class="card__btn btn-hidden">READ</button>
+                                <button class="card__btn btn-hidden">BOOKMARK</button>
+                                <span class="card__icon"><i class=" far fa-heart"></i></span>
+                                <span class="card__icon"><i class=" fas fa-share-alt"></i></span>
+                                <span class="card__icon"><i class=" fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- card 4 - with header -->
+
+                        <div class="card card-color">
+
+                            <div class="card__title">
+                                <h5>Basic Card w/ Header</h5>
+                                <p>by Mohd Nizam</p>
+                            </div>
+
+                            <div class="card__img-box">
+                                <img src="../images/card-image.jpg" alt="Random Images">
+                            </div>
+
+                            <div class="card__desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                                </p>
+                            </div>
+                            <div class="card__footer">
+                                <button class="card__btn ">READ</button>
+                                <button class="card__btn ">BOOKMARK</button>
+                                <span class="card__icon "><i class="far fa-heart"></i></span>
+                                <span class="card__icon "><i class="fas fa-share-alt"></i></span>
+                                <span class="card__icon "><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- card 5 - text over media-->
+
+                        <div class="card card-color text-over-media-position">
+
+                            <div class="card__img-box">
+                                <img src="../images/card-image.jpg" alt="Random Images">
+                            </div>
+
+                            <div class="card__title text-over-media ">
+                                <h5>Basic Card w/ Text Over Media</h5>
+                                <p>by Mohd Nizam</p>
+                            </div>
+
+                            <div class="card__desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                                </p>
+                            </div>
+                            <div class="card__footer">
+                                <button class="card__btn ">READ</button>
+                                <button class="card__btn ">BOOKMARK</button>
+                                <span class="card__icon "><i class="far fa-heart"></i></span>
+                                <span class="card__icon "><i class="fas fa-share-alt"></i></span>
+                                <span class="card__icon "><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+
+                        <!-- card 6 - text over media-->
+
+                        <div class="card card-color hit">
+
+                            <div class="card__header hit-header">
+
+                                <div class="card__img-box hit-image-box">
+                                    <img src="../images/card-image.jpg" alt="Random Images" class="hit-image">
+                                </div>
+
+                                <div class="card__title">
+                                    <h5>Card w/ Horizontal Image & Text</h5>
+                                    <p>by Mohd Nizam</p>
+                                </div>
+
+                            </div>
+
+                            <div class="card__desc card__desc-hidden">
+                                <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                                </p>
+                            </div>
+                            <div class="card__footer">
+                                <button class="card__btn ">READ</button>
+                                <button class="card__btn ">BOOKMARK</button>
+                                <span class="card__icon "><i class="far fa-heart"></i></span>
+                                <span class="card__icon "><i class="fas fa-share-alt"></i></span>
+                                <span class="card__icon "><i class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=464&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-color%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fcard-image.jpg%2522%2520alt%253D%2522Random%2520Images%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EBasic%2520Card%2520Components%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Eby%2520Mohd%2520Nizam%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipis%2520icing%2520elit.%2520Sapiente%2520minima%2520rerum%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card__btn%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card__btn%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card__icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1015px; height: 692px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__brand">
+                <p class="footer__copyright">Made with Love ♥ | Feel free to copy.</p>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/way2nizam" class="icon icon--primary"> <svg class="user-nav__icon">
+                        <use xlink:href="images/sprite.svg#icon-github">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/way2nizam" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-twitter">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/nizamy710/" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-linkedin">
+                        </use>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

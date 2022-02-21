@@ -1,0 +1,19 @@
+.list {
+  list-style: none;
+  color: var(--color-body);
+  padding-left: 0;
+  text-underline: none;
+}
+
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.list--icon .list__item {
+  list-style-image: url(../images/SVG/heart.svg);
+}
+
+.list--icon {
+  padding-left: 2rem;
+}

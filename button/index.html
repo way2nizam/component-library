@@ -5,54 +5,289 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Component</title>
+    <title>Documentation | nyaa-UI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://nyaa-ui.netlify.app/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+
 </head>
 
 <body>
+    <div class="container">
+
+        <header class="header">
+
+            <a href="/"><img src="../images/nyaa-ui.svg" alt="nyaa-UI Logo" class="logo"></a>
+
+            <nav class="user-nav">
+                <a href="https://github.com/way2nizam">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-github">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/way2nizam">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/nizamy710/">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+            </nav>
+        </header>
+
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="/docs" class="side-nav__link">
+                            Installation
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/avatar" class="side-nav__link">
+                            Avatar
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/alert" class="side-nav__link">
+                            Alert
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/badge" class="side-nav__link">
+                            Badge
+                        </a>
+                    </li>
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="/button" class="side-nav__link">
+                            Button
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/card" class="side-nav__link">
+                            Card
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/image-component" class="side-nav__link">
+                            Image
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/input" class="side-nav__link">
+                            Input
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/text-utilities" class="side-nav__link">
+                            Text Utilities
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/list" class="side-nav__link">
+                            Lists </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/navigation" class="side-nav__link">
+                            Navigation
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/modal" class="side-nav__link">
+                            Modal
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/rating" class="side-nav__link">
+                            Rating
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/toast" class="side-nav__link">
+                            Toast
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/grid" class="side-nav__link">
+                            Grid
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="main-content">
+                <div class="example-container">
+
+                    <h1 class="my-2">Button</h1>
+
+                    <h4 class="my-2">
+                        Basic Button
+                    </h4>
+
+                    <div class="code-snippet my-2">
+                        <button class="btn">Basic Button</button>
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-secondary">Secondary</button>
+                        <button class="btn btn-accent">Accent</button>
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EBasic%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-accent%2522%253EAccent%253C%252Fbutton%253E"
+                            style="width: 573px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="my-2">
+                        Round Button
+                    </h4>
+
+                    <div class="code-snippet my-2">
+                        <button class="btn btn-round">Round Round</button>
+                        <button class="btn btn-round btn-primary">Round Round</button>
+                        <button class="btn btn-round btn-secondary">Round Round</button>
+                        <button class="btn btn-round btn-accent">Round Round</button>
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-round%2522%253ERound%2520Round%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-round%2520btn-primary%2522%253ERound%2520Round%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-round%2520btn-secondary%2522%253ERound%2520Round%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-round%2520btn-accent%2522%253ERound%2520Round%253C%252Fbutton%253E"
+                            style="width: 675px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
 
 
-    <h3>basic button</h3>
-    <br>
-    <br>
+                    <h4 class="my-2">
+                        Outline Button
+                    </h4>
 
-    <button class="btn">Basic Button</button>
+                    <div class="code-snippet my-2">
+                        <button class="btn btn-outline">Outline Round</button>
+                        <button class="btn btn-outline btn-outline--primary">Outline Round</button>
+                        <button class="btn btn-outline btn-outline--secondary">Outline Round</button>
+                        <button class="btn btn-outline btn-outline--accent">Outline Round</button>
 
-    <button class="btn btn-primary">Primary Button</button>
+                    </div>
 
-    <br>
-    <br>
-    <h3>full width responsive button</h3>
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EOutline%2520Round%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520btn-outline--primary%2522%253EOutline%2520Round%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520btn-outline--secondary%2522%253EOutline%2520Round%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520btn-outline--accent%2522%253EOutline%2520Round%253C%252Fbutton%253E"
+                            style="width: 784px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
 
-    <button class="btn btn-primary btn-block">Primary Button</button>
+                    <h4 class="my-2">
+                        Block Button with different color (100% width)
+                    </h4>
 
-    <button class="btn btn-secondary btn-block">Secondary Button</button>
+                    <div class="code-snippet my-2">
+                        <button class="btn btn-block">Button Block</button>
 
+                        <div class="example-div"></div>
 
+                        <button class="btn btn-block btn-primary">Button Block</button>
 
-    <a href="#" class="btn btn-primary btn-block">Link Button</a>
+                        <div class="example-div"></div>
 
-    <br>
-    <br>
-    <h3>outline and icon button</h3>
+                        <button class="btn btn-block btn-secondary">Button Block</button>
 
-    <button class="btn btn-outline">Outline Button</button>
+                        <div class="example-div"></div>
 
-    <i class="bi bi-house-door btn btn-primary"></i>
+                        <button class="btn btn-block btn-accent">Button Block</button>
 
-    <br>
-    <br>
-    <h3>bottom left and right side - float icon button</h3>
+                    </div>
 
-    <i class="bi bi-bell-fill btn btn-primary btn-float-left"></i>
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-block%2522%253EButton%2520Block%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-block%2520btn-primary%2522%253EButton%2520Block%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-block%2520btn-secondary%2522%253EButton%2520Block%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-block%2520btn-accent%2522%253EButton%2520Block%253C%252Fbutton%253E"
+                            style="width: 683px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
 
-    <i class="bi bi-arrow-up-square btn btn-primary btn-float-right"></i>
+                    <h4 class="my-2">
+                        Link Button with different color
+                    </h4>
 
+                    <a href="#" class="btn">Link Button</a>
 
+                    <h4 class="my-2">
+                        Icon Button with different color
+                    </h4>
+
+                    <button class="btn btn-icon btn-primary">
+                        <svg class="icon">
+                            <use href="../images/sprite.svg#icon-home"></use>
+                        </svg>
+                    </button>
+
+                    <h4 class="my-2">
+                        Float Action Button
+                    </h4>
+
+                    <button class="btn btn-primary btn-float btn-float-right ">
+                        +
+                    </button>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=464&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2522%253ELink%2520Button%253C%252Fa%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-primary%2522%253E%250A%2520%2520%2520%2520%253Csvg%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522..%252Fimages%252Fsprite.svg%2523icon-home%2522%253E%253C%252Fuse%253E%250A%2520%2520%2520%2520%253C%252Fsvg%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-float%2520btn-float-right%2520%2522%253E%250A%2520%2520%2520%2520%252B%250A%253C%252Fbutton%253E"
+                            style="width: 464px; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__brand">
+                <p class="footer__copyright">Made with Love ♥ | Feel free to copy.</p>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/way2nizam" class="icon icon--primary"> <svg class="user-nav__icon">
+                        <use xlink:href="images/sprite.svg#icon-github">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/way2nizam" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-twitter">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/nizamy710/" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-linkedin">
+                        </use>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </div>
 
 </body>
 

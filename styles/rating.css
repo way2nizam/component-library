@@ -1,0 +1,15 @@
+/* rating */
+
+.rating {
+  display: flex;
+}
+
+.rating__icon-star {
+  width: 1.75rem;
+  height: 1.7rem;
+  fill: var(--white-color);
+}
+
+.rating .checked {
+  fill: var(--color-accent);
+}

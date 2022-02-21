@@ -1,0 +1,45 @@
+/* Badge CSS Start Here */
+
+.badge {
+  align-items: center;
+  background-color: var(--color-grey-dark-4);
+  border-radius: 100%;
+  color: #fff;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  width: 1.6rem;
+}
+
+.badge-s {
+  font-size: 0.6rem;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.badge-m {
+  font-size: 1.5rem;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.badge-l {
+  font-size: 2rem;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.badge-primary {
+  background-color: var(--color-primary);
+}
+
+.badge-secondary {
+  background-color: var(--color-secondary);
+}
+
+.badge-accent {
+  background-color: var(--color-accent);
+}

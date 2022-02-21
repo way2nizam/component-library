@@ -5,46 +5,245 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typography | nyaa-UI</title>
+    <title>Text Utilities (Typography) | nyaa-UI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../styles/text-utilities.css">
 </head>
 
 <body>
     <div class="container">
+        <header class="header">
 
-        <div class="heading-container">Headings</div>
+            <a href="/"><img src="../images/nyaa-ui.svg" alt="nyaa-UI Logo" class="logo"></a>
 
-        <h1>This is a sample text.</h1>
-        <h2>This is a sample text.</h2>
-        <h3>This is a sample text.</h3>
-        <h4>This is a sample text.</h4>
-        <h5>This is a sample text.</h5>
-        <h6>This is a sample text.</h6>
+            <nav class="user-nav">
+                <a href="https://github.com/way2nizam">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-github">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
 
-        <div class="text-container">Normal Paragraph(1.6rem or 16px)</div>
+                <a href="https://twitter.com/way2nizam">
+                    <div class="user-nav__icon-box">
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, doloribus!</p>
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
 
-        <div class="text-container">Small Paragraph(.8rem or 8px)</div>
+                <a href="https://www.linkedin.com/in/nizamy710/">
+                    <div class="user-nav__icon-box">
 
-        <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, doloribus!
-        </p>
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="/docs" class="side-nav__link">
+                            Installation
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/avatar" class="side-nav__link">
+                            Avatar
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/alert" class="side-nav__link">
+                            Alert
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/badge" class="side-nav__link">
+                            Badge
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/button" class="side-nav__link">
+                            Button
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/card" class="side-nav__link">
+                            Card
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/image-component" class="side-nav__link">
+                            Image
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/input" class="side-nav__link">
+                            Input
+                        </a>
+                    </li>
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="/text-utilities" class="side-nav__link">
+                            Text Utilities
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/list" class="side-nav__link">
+                            Lists </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/navigation" class="side-nav__link">
+                            Navigation
+                        </a>
+                    </li>
 
-        <div class="text-container">Grey Text</div>
+                    <li class="side-nav__item">
+                        <a href="/modal" class="side-nav__link">
+                            Modal
+                        </a>
+                    </li>
 
-        <p class="text-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, doloribus!
-        </p>
+                    <li class="side-nav__item">
+                        <a href="/rating" class="side-nav__link">
+                            Rating
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/toast" class="side-nav__link">
+                            Toast
+                        </a>
+                    </li>
 
-        <div class="text-container">Center Text</div>
+                    <li class="side-nav__item">
+                        <a href="/grid" class="side-nav__link">
+                            Grid
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="main-content">
+                <div class="example-container">
 
-        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
-            doloribus! lorem50
-        </p>
+                    <div class="h1 my-3">Headings</div>
 
+                    <div class="code-snippet2 my-2">
+                        <h1>This is a sample text.</h1>
+                        <h2>This is a sample text.</h2>
+                        <h3>This is a sample text.</h3>
+                        <h4>This is a sample text.</h4>
+                        <h5>This is a sample text.</h5>
+                        <h6>This is a sample text.</h6>
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=567&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%253Ch1%253EThis%2520is%2520a%2520sample%2520text.%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%253EThis%2520is%2520a%2520sample%2520text.%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520a%2520sample%2520text.%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch4%253EThis%2520is%2520a%2520sample%2520text.%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Ch5%253EThis%2520is%2520a%2520sample%2520text.%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Ch6%253EThis%2520is%2520a%2520sample%2520text.%253C%252Fh6%253E%250A%253C%252Fdiv%253E"
+                            style="width: 567px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <div class="h4 my-2">Normal Paragraph(1.6rem or 16px)</div>
+
+                    <div class="code-snippet2 my-2">
+                        <p class="my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, doloribus!
+                        </p>
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=567&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%253ELorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit%252C%2520doloribus%21%250A%253C%252Fp%253E"
+                            style="width: 567px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <div class="h4 my-2">Small Paragraph(.8rem or 8px)</div>
+
+                    <div class="code-snippet2 my-2">
+                        <p class="text-sm my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+                            doloribus!
+                        </p>
+                    </div>
+
+                    <div class="h4 my-2">Grey Text</div>
+
+                    <div class="code-snippet2 my-2">
+                        <p class="text-grey my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+                            doloribus!
+                        </p>
+                    </div>
+
+                    <div class="h4 my-2">Center Text</div>
+
+                    <div class="code-snippet2 my-2">
+                        <p class="text-center my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+                            doloribus! lorem50
+                        </p>
+                    </div>
+
+                    <div class="h4 my-2">Medium Paragraph(24px)</div>
+
+                    <div class="code-snippet2 my-2">
+                        <p class="text-md my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+                            doloribus!
+                        </p>
+                    </div>
+
+                    <div class="h4 my-2">Large Paragraph(32px)</div>
+
+                    <div class="code-snippet2 my-2">
+                        <p class="text-lg my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+                            doloribus!
+                        </p>
+                    </div>
+
+                    <div class="h4 my-2">Extra Large Paragraph(48px)</div>
+
+                    <div class="code-snippet2 my-2">
+                        <p class="text-xl my-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam,
+                            doloribus!
+                        </p>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__brand">
+                <p class="footer__copyright">Made with Love ♥ | Feel free to copy.</p>
+            </div>
+            <div class="footer__social">
+                <a href="https://github.com/way2nizam" class="icon icon--primary"> <svg class="user-nav__icon">
+                        <use xlink:href="images/sprite.svg#icon-github">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/way2nizam" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-twitter">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/nizamy710/" class="icon">
+                    <svg class="user-nav__icon">
+                        <use href="images/sprite.svg#icon-linkedin">
+                        </use>
+                    </svg>
+                </a>
+            </div>
+        </footer>
     </div>
 
 </body>
