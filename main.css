@@ -2,18 +2,12 @@
 @import url(./styles/text-utilities.css);
 @import url(./styles/margin.css);
 @import url(./styles/padding.css);
-@import url(./styles/layout.css);
-@import url(./styles/landingpage.css);
-
-@import url(./styles/component-ui.css);
 
 /* components */
 
 @import url(./styles/alert.css);
 @import url(./styles/header-navigation.css);
-@import url(./styles/docs.css);
 @import url(./styles/rating.css);
-@import url(./styles/footer.css);
 @import url(./styles/avatar.css);
 @import url(./styles/badge.css);
 @import url(./styles/button.css);

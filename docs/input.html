@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input | nyaa-UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/nyaa-ui-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../docs-layout.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+
+            <a href="/"><img src="../images/nyaa-ui.svg" alt="nyaa-UI Logo" class="logo"></a>
+
+            <nav class="user-nav">
+                <a href="https://github.com/way2nizam">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-github">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/way2nizam">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/nizamy710/">
+                    <div class="user-nav__icon-box">
+
+                        <svg class="user-nav__icon">
+                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                            </use>
+                        </svg>
+                    </div>
+                </a>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item">
+                        <a href="/docs/installation.html" class="side-nav__link">
+                            Installation
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/avatar.html" class="side-nav__link">
+                            Avatar
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/alert.html" class="side-nav__link">
+                            Alert
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/badge.html" class="side-nav__link">
+                            Badge
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/button.html" class="side-nav__link">
+                            Button
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/card.html" class="side-nav__link">
+                            Card
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/image-component.html" class="side-nav__link">
+                            Image
+                        </a>
+                    </li>
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="/docs/input.html" class="side-nav__link">
+                            Input
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/text-utilities.html" class="side-nav__link">
+                            Text Utilities
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/list.html" class="side-nav__link">
+                            Lists </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="/docs/header-navigation.html" class="side-nav__link">
+                            Navigation
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/docs/rating.html" class="side-nav__link">
+                            Rating
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/docs/modal.html" class="side-nav__link">
+                            Modal
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/docs/toast.html" class="side-nav__link">
+                            Toast
+                        </a>
+                    </li>
+
+                    <li class="side-nav__item">
+                        <a href="/docs/grid.html" class="side-nav__link">
+                            Grid
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="main-content">
+                <div class="example-container">
+
+                    <h1 class="my-2">Input Component</h1>
+                    <p class="my-1">
+                        this is responsive input. you can change the class or add a div top of the serach component give
+                        width as you required it will behave responsive accordingly.
+                    </p>
+
+                    <!-- // basic Input text component -->
+
+                    <h4 class="my-2">Basic Responsive Input</h4>
+
+                    <div class="code-snippet my-2">
+                        <form action="#" class="search">
+                            <input type="text" class="search__input" placeholder="search here">
+                            <button class="search__button">
+                                <svg class="search__icon">
+                                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                                    </use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520action%253D%2522%2523%2522%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522search__input%2522%2520placeholder%253D%2522search%2520here%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522search__button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522search__icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522..%252Fimages%252Fsprite.svg%2523icon-magnifying-glass%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fuse%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fform%253E"
+                            style="width: 800px; height: 338px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="my-2">small (30%)</h4>
+                    <div class="code-snippet my-2">
+                        <form action="#" class="search search-s">
+                            <input type="text" class="search__input" placeholder="search here">
+                            <button class="search__button">
+                                <svg class="search__icon">
+                                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                                    </use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <h4 class="my-2">medium (50%)</h4>
+
+                    <div class="code-snippet my-2">
+                        <form action="#" class="search search-m">
+                            <input type="text" class="search__input" placeholder="search here">
+                            <button class="search__button">
+                                <svg class="search__icon">
+                                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                                    </use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <h4 class="my-2">large (80%)</h4>
+
+                    <div class="code-snippet my-2">
+                        <form action="#" class="search search-l">
+                            <input type="text" class="search__input" placeholder="search here">
+                            <button class="search__button">
+                                <svg class="search__icon">
+                                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                                    </use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <h4 class="my-2">on error</h4>
+
+                    <div class="code-snippet my-2">
+                        <form action="#" class="search">
+                            <input type="text" class="search__input search-error" placeholder="search here">
+                            <button class="search__button">
+                                <svg class="search__icon">
+                                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                                    </use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <h4 class="my-2">on success</h4>
+
+                    <div class="code-snippet my-2">
+                        <form action="#" class="search">
+                            <input type="text" class="search__input search-success" placeholder="search here">
+                            <button class="search__button">
+                                <svg class="search__icon">
+                                    <use href="../images/sprite.svg#icon-magnifying-glass">
+                                    </use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="site-navigation">
+                        <a href="./image-component.html" class="btn btn-outline--primary">Image Component</a>
+                        <a href="./text-utilities.html" class="btn btn-outline--primary">Text Utilities</a>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+        <footer class="footer">
+
+            <div class="footer__copyright">
+                <p class="py-sm">Made with Love ♥ | Feel free to copy.</p>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://github.com/way2nizam" class="m-1">
+                    <svg class="icon footer__icon">
+                        <use xlink:href="../images/sprite.svg#icon-github">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/way2nizam" class="icon m-1">
+                    <svg class="icon footer__icon">
+                        <use href="../images/sprite.svg#icon-twitter">
+                        </use>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/nizamy710/" class="icon m-1">
+                    <svg class="icon footer__icon">
+                        <use href="../images/sprite.svg#icon-linkedin">
+                        </use>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
