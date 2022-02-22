@@ -1,26 +1,39 @@
+/* Image Component CSS */
+
 .img {
-  width: 30rem;
   max-width: 100%;
   height: auto;
   display: inline-block;
 }
 
-.img-s {
-  max-width: 20rem;
+.img-xs {
+  width: 10rem;
 }
 
-.img-m {
-  max-width: 40rem;
+.img-sm {
+  width: 20rem;
 }
 
-.img-l {
-  max-width: 60rem;
+.img-md {
+  width: 30rem;
+}
+
+.img-lg {
+  width: 50rem;
+}
+
+.img-xl {
+  width: 70rem;
+}
+
+.img-xxl {
+  width: 90rem;
 }
 
 .img-round {
   border-radius: 50%;
 }
 
-.img--bordered {
+.img-bordered {
   border: 0.5rem solid var(--color-body);
 }

@@ -143,6 +143,10 @@ p,
   font-weight: 400;
 }
 
+.text-lightbold {
+  font-weight: 500;
+}
+
 .text-semibold {
   font-weight: 600;
 }

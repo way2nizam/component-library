@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="../images/nyaa-ui-favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../docs-layout.css">
+    <!-- <link rel="stylesheet" href="../product-card/product-card.css"> -->
 </head>
 
 <body>
@@ -138,10 +139,101 @@
             </nav>
             <main class="main-content">
                 <div class="example-container">
+                    <h1 class="my-2">Cards</h1>
+                    <p class="my-1">A card is a flexible content container. It includes
+                        image, header and content. Multiple variety of cards available horizontal, vertical</p>
+
+                    <h4 class="my-2">Vertical Card</h4>
+
+                    <div class="card">
+
+                        <div class="card__cover">
+
+                            <div class="card__image">
+                                <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                            </div>
+
+                            <div class="icon-container card__icon">
+                                <svg class="icon-sm icon-accent">
+                                    <use href="../images/sprite.svg#icon-heart">
+                                    </use>
+                                </svg>
+                            </div>
+
+                        </div>
+
+                        <div class="card__content">
+
+                            <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                            <h3 class="text-bold mb-2">$2000</h3>
+
+                            <button class="btn btn-block btn-grey py-1">Move to Cart</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__cover%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522..%252Fimages%252Fproduct.png%2522%2520alt%253D%2522Men%2520Premium%2520Jacket%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-container%2520card__icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522icon-sm%2520icon-accent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522..%252Fimages%252Fsprite.svg%2523icon-heart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fuse%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__content%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p%2520my-2%2520text-lightbold%2522%253EMen%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522text-bold%2520mb-2%2522%253E%25242000%253C%252Fh3%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-block%2520btn-grey%2520py-1%2522%253EMove%2520to%2520Cart%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
+                            style="width: 601px; height: 782px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="my-2">Horizontal Card</h4>
+
+                    <div class="card-horizontal">
+
+                        <div class="card__cover mr-2">
+
+                            <div class="card2__image">
+                                <img class="img" src="../images/product.png" alt="Men Premium Jacket">
+                            </div>
+
+                        </div>
+
+                        <div class="card-horizontal__content">
+
+                            <div class="p my-2 text-lightbold">Men Premium Jacket</div>
+
+                            <div class="d-flex">
+                                <h3 class="text-bold mb-2">$2000</h3>
+                                <div class="p text-grey text-md text-strike-through ml-4">$3000</div>
+                            </div>
+
+                            <div class="h4 text-bold text-grey mb-1">50% Off</div>
+
+                            <div class="d-flex-r my-2">
+                                <p class="mr-1">Quantity:</p>
+                                <button class="btn p-sm btn-round btn-white">-</button>
+                                <input class="card__input mx-1" type="text" name="" id="" size="1" value="1">
+                                <button class="btn p-sm btn-round">+</button>
+
+                            </div>
+
+
+                            <button class="btn btn-block btn-grey mb-1 py-1 px-1">Remove From Cart</button>
+
+                            <button class="btn btn-block btn-outline--grey py-1 px-1">Move to Wishlist</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__cover%2520mr-2%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card2__image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522..%252Fimages%252Fproduct.png%2522%2520alt%253D%2522Men%2520Premium%2520Jacket%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal__content%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p%2520my-2%2520text-lightbold%2522%253EMen%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522d-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522text-bold%2520mb-2%2522%253E%25242000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p%2520text-grey%2520text-md%2520text-strike-through%2520ml-4%2522%253E%25243000%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522h4%2520text-bold%2520text-grey%2520mb-1%2522%253E50%2525%2520Off%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522d-flex-r%2520my-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522mr-1%2522%253EQuantity%253A%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520p-sm%2520btn-round%2520btn-white%2522%253E-%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522card__input%2520mx-1%2522%2520type%253D%2522text%2522%2520name%253D%2522%2522%2520id%253D%2522%2522%2520size%253D%25221%2522%2520value%253D%25221%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520p-sm%2520btn-round%2522%253E%252B%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-block%2520btn-grey%2520mb-1%2520py-1%2520px-1%2522%253ERemove%2520From%2520Cart%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-block%2520btn-outline--grey%2520py-1%2520px-1%2522%253EMove%2520to%2520Wishlist%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
+                            style="width: 601px; height: 1042px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
                     <div class="cards">
                         <!-- // card 1 - Basic -->
 
-                        <div class="card card-color">
+                        <div class="sample-card card-color">
                             <div class="card__img-box">
                                 <img src="../images/card-image.jpg" alt="Random Images">
                             </div>
@@ -156,15 +248,42 @@
                             <div class="card__footer">
                                 <button class="card__btn">READ</button>
                                 <button class="card__btn">BOOKMARK</button>
-                                <span class="card__icon"><i class="far fa-heart"></i></span>
-                                <span class="card__icon"><i class="fas fa-share-alt"></i></span>
-                                <span class="card__icon"><i class="fas fa-ellipsis-v"></i></span>
+
+                                <a href="https://github.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-github">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://twitter.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/nizamy710/">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
                             </div>
                         </div>
 
                         <!-- // card 2 - basic with only button -->
 
-                        <div class="card card-color">
+                        <div class="sample-card card-color">
 
                             <div class="card__img-box">
                                 <img src="../images/card-image.jpg" alt="Random Images">
@@ -182,15 +301,12 @@
                             <div class="card__footer">
                                 <button class="card__btn">READ</button>
                                 <button class="card__btn">BOOKMARK</button>
-                                <span class="card__icon icon-hidden"><i class="far fa-heart"></i></span>
-                                <span class="card__icon icon-hidden"><i class="fas fa-share-alt"></i></span>
-                                <span class="card__icon icon-hidden"><i class="fas fa-ellipsis-v"></i></span>
                             </div>
                         </div>
 
                         <!-- // card 3 - basic with only icon -->
 
-                        <div class="card card-color">
+                        <div class="sample-card card-color">
 
                             <div class="card__img-box">
                                 <img src="../images/card-image.jpg" alt="Random Images">
@@ -206,17 +322,40 @@
                                 </p>
                             </div>
                             <div class="card__footer">
-                                <button class="card__btn btn-hidden">READ</button>
-                                <button class="card__btn btn-hidden">BOOKMARK</button>
-                                <span class="card__icon"><i class=" far fa-heart"></i></span>
-                                <span class="card__icon"><i class=" fas fa-share-alt"></i></span>
-                                <span class="card__icon"><i class=" fas fa-ellipsis-v"></i></span>
+                                <a href="https://github.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-github">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://twitter.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/nizamy710/">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <!-- card 4 - with header -->
 
-                        <div class="card card-color">
+                        <div class="sample-card card-color">
 
                             <div class="card__title">
                                 <h5>Basic Card w/ Header</h5>
@@ -234,15 +373,40 @@
                             <div class="card__footer">
                                 <button class="card__btn ">READ</button>
                                 <button class="card__btn ">BOOKMARK</button>
-                                <span class="card__icon "><i class="far fa-heart"></i></span>
-                                <span class="card__icon "><i class="fas fa-share-alt"></i></span>
-                                <span class="card__icon "><i class="fas fa-ellipsis-v"></i></span>
+                                <a href="https://github.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-github">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://twitter.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/nizamy710/">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <!-- card 5 - text over media-->
 
-                        <div class="card card-color text-over-media-position">
+                        <div class="sample-card card-color text-over-media-position">
 
                             <div class="card__img-box">
                                 <img src="../images/card-image.jpg" alt="Random Images">
@@ -260,15 +424,40 @@
                             <div class="card__footer">
                                 <button class="card__btn ">READ</button>
                                 <button class="card__btn ">BOOKMARK</button>
-                                <span class="card__icon "><i class="far fa-heart"></i></span>
-                                <span class="card__icon "><i class="fas fa-share-alt"></i></span>
-                                <span class="card__icon "><i class="fas fa-ellipsis-v"></i></span>
+                                <a href="https://github.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-github">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://twitter.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/nizamy710/">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <!-- card 6 - text over media-->
 
-                        <div class="card card-color hit">
+                        <div class="sample-card card-color hit">
 
                             <div class="card__header hit-header">
 
@@ -290,9 +479,34 @@
                             <div class="card__footer">
                                 <button class="card__btn ">READ</button>
                                 <button class="card__btn ">BOOKMARK</button>
-                                <span class="card__icon "><i class="far fa-heart"></i></span>
-                                <span class="card__icon "><i class="fas fa-share-alt"></i></span>
-                                <span class="card__icon "><i class="fas fa-ellipsis-v"></i></span>
+                                <a href="https://github.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-github">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://twitter.com/way2nizam">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/nizamy710/">
+                                    <div class="user-nav__icon-box">
+
+                                        <svg class="user-nav__icon">
+                                            <use xlink:href="../images/sprite.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
