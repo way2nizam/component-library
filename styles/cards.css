@@ -7,6 +7,12 @@
 }
 /* // only for displaying multiple cards on same page end */
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
 .card {
   background-color: var(--white-color);
   width: fit-content;
