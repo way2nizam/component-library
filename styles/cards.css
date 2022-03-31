@@ -48,6 +48,17 @@
   justify-content: space-between;
 }
 
+.card-dismiss {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
 /* card horizontal */
 
 .d-flex {
