@@ -140,10 +140,51 @@
             <main class="main-content">
                 <div class="example-container">
                     <h1 class="my-2">Cards</h1>
-                    <p class="my-1">A card is a flexible content container. It includes
-                        image, header and content. Multiple variety of cards available horizontal, vertical</p>
+                    <p class="my-1">
 
-                    <h4 class="my-2">Vertical Card</h4>
+                        A card is a flexible content container. It includes
+                        image, header and content. Multiple variety of cards available horizontal, vertical
+                    </p>
+
+                    <div class="my-2">
+                        <h4 class="my-1">Different Cards</h4>
+                        <p class="py-1">different types of Cards is available, you can simple define class to
+                            change the Cards.</p>
+                        <ol class="my-2 ml-2">
+                            <li class="p">
+                                horizontal card
+                            </li>
+                            <li class="p">
+                                vertical card
+                            </li>
+                            <li class="p">
+                                card with badge
+                            </li>
+                            <li class="p">
+                                card with dismiss
+                            </li>
+                            <li class="p">
+                                card with image
+                            </li>
+                            <li class="p">
+                                text card
+                            </li>
+
+                            <li class="p">
+                                card with header and footer
+                            </li>
+
+                            <li class="p">
+                                text over-media card
+                            </li>
+
+                            <li class="p">
+                                card with action button
+                            </li>
+                        </ol>
+                    </div>
+
+                    <h4 class="my-2">Vertical Card / Card with heart icon badge / Card with dismiss </h4>
 
                     <div class="card-container">
                         <div class="card">
@@ -184,7 +225,7 @@
                                 </div>
 
                                 <div class="icon-container card__icon">
-                                    <svg class="icon-sm icon-grey">
+                                    <svg class="icon-sm">
                                         <use href="../images/sprite.svg#icon-heart">
                                         </use>
                                     </svg>
@@ -204,43 +245,124 @@
 
                         </div>
 
-                        <div class="card">
-
-                            <div class="card__cover">
-
-                                <div class="card__image">
-                                    <img class="img" src="../images/product.png" alt="Men Premium Jacket">
-                                </div>
-
-                                <div class="icon-container card__icon">
-                                    <svg class="icon-sm icon-accent">
-                                        <use href="../images/sprite.svg#icon-heart">
-                                        </use>
-                                    </svg>
-                                </div>
-
-                            </div>
-
-                            <div class="card__content">
-
-                                <div class="p my-2 text-lightbold">Men Premium Jacket</div>
-
-                                <h3 class="text-bold mb-2">$2000</h3>
-
-                                <button class="btn btn-block btn-grey py-1">Move to Cart</button>
-
-                            </div>
-
-                        </div>
-
                     </div>
-
-
 
                     <div class="carbon-code my-2">
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__cover%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522..%252Fimages%252Fproduct.png%2522%2520alt%253D%2522Men%2520Premium%2520Jacket%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-container%2520card__icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522icon-sm%2520icon-accent%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520href%253D%2522..%252Fimages%252Fsprite.svg%2523icon-heart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fuse%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__content%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p%2520my-2%2520text-lightbold%2522%253EMen%2520Premium%2520Jacket%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522text-bold%2520mb-2%2522%253E%25242000%253C%252Fh3%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-block%2520btn-grey%2520py-1%2522%253EMove%2520to%2520Cart%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
                             style="width: 601px; height: 782px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="my-2">Text Card / Card with Dismiss</h4>
+
+                    <p class="my-1"> simple text and card with dismiss also used for multiple purposes, here below you
+                        can see demo and code snippets</p>
+
+                    <!-- Text Card with Dismiss -->
+                    <div class="sample-card card-color">
+
+                        <div class="card__title">
+                            <h5>Basic Card Components</h5>
+                            <p>by Mohd Nizam</p>
+                        </div>
+                        <div class="card__desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                            </p>
+                        </div>
+                        <div class="card__footer">
+                            <button class="card__btn">READ</button>
+                            <button class="card__btn">BOOKMARK</button>
+
+                            <a href="https://github.com/way2nizam">
+                                <div class="user-nav__icon-box">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="../images/sprite.svg#icon-github">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="https://twitter.com/way2nizam">
+                                <div class="user-nav__icon-box">
+
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="../images/sprite.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/nizamy710/">
+                                <div class="user-nav__icon-box">
+
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="../images/sprite.svg#icon-linkedin">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <br>
+
+                    <div class="sample-card card-color card-dismiss">
+
+                        <div class="card__title">
+                            <h5>Basic Card Components</h5>
+                            <p>by Mohd Nizam</p>
+                        </div>
+                        <div class="card__desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipis icing elit. Sapiente minima rerum?
+                            </p>
+                        </div>
+                        <div class="card__footer">
+                            <button class="card__btn">READ</button>
+                            <button class="card__btn">BOOKMARK</button>
+
+                            <a href="https://github.com/way2nizam">
+                                <div class="user-nav__icon-box">
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="../images/sprite.svg#icon-github">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="https://twitter.com/way2nizam">
+                                <div class="user-nav__icon-box">
+
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="../images/sprite.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/nizamy710/">
+                                <div class="user-nav__icon-box">
+
+                                    <svg class="user-nav__icon">
+                                        <use xlink:href="../images/sprite.svg#icon-linkedin">
+                                        </use>
+                                    </svg>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <img class="close-btn" src="../images/close-icon.png" alt="">
+
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=559&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522sample-card%2520card-color%2522%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EBasic%2520Card%2520Components%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Eby%2520Mohd%2520Nizam%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipis%2520icing%2520elit.%2520Sapiente%2520minima%2520rerum%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card__btn%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card__btn%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgithub.com%252Fway2nizam%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-nav__icon-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522user-nav__icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520xlink%253Ahref%253D%2522..%252Fimages%252Fsprite.svg%2523icon-github%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fuse%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Ftwitter.com%252Fway2nizam%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-nav__icon-box%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522user-nav__icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520xlink%253Ahref%253D%2522..%252Fimages%252Fsprite.svg%2523icon-twitter%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fuse%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fwww.linkedin.com%252Fin%252Fnizamy710%252F%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-nav__icon-box%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522user-nav__icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cuse%2520xlink%253Ahref%253D%2522..%252Fimages%252Fsprite.svg%2523icon-linkedin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fuse%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522close-btn%2522%2520src%253D%2522..%252Fimages%252Fclose-icon.png%2522%2520alt%253D%2522%2522%253E%250A%250A%253C%252Fdiv%253E"
+                            style="width: 700px; height: 1195px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
@@ -572,6 +694,8 @@
                                 </a>
                             </div>
                         </div>
+
+
                     </div>
 
                     <div class="carbon-code my-2">

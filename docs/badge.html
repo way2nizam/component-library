@@ -140,31 +140,111 @@
                 <div class="example-container">
                     <h1 class="my-2">Badge</h1>
                     <p class="my-1">
-                        A badge consists of a small circle, containing a number or filled with color.
+                        A badge consists of a small circle, containing a number or filled with color. It is used for
+                        multiple purposes like to show active online, also used with notification and with e-commerce
+                        app
+                        like with cart and wishlist.
+                    </p>
+
+                    <div class="my-2">
+                        <h4 class="my-1">Badge Different Sizes</h4>
+                        <p class="py-1">different sizes of badge is available, you can simple define class to
+                            change the size of the badge</p>
+                        <ol class="my-2 ml-2">
+                            <li class="p">
+                                small (badge-s)
+                            </li>
+                            <li class="p">
+                                medium (badge-m)
+                            </li>
+                            <li class="p">
+                                large (badge-l)
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="my-2">
+                        <h4 class="my-1">Badge With Different Color</h4>
+                        <p class="py-1">different color of badge is available, you can simple define class to change the
+                            color of the badge.
+                        </p>
+                        <ol class="my-2 ml-2">
+                            <li class="p">
+                                badge-primary
+                            </li>
+                            <li class="p">
+                                badge-secondary
+                            </li>
+                            <li class="p">
+                                badge-accent
+                            </li>
+                        </ol>
+                    </div>
+
+                    <h4 class="my-2">
+                        Badge on Avatar
+                    </h4>
+
+                    <p class="my-1">
+                        Use the Avatar + Badge Pattern used to indicate for an alert or notification.
+                    </p>
+
+                    <div class="code-snippet3 my-2">
+
+                        <div class="badge-on-avatar">
+                            <div class="avatar">
+                                <div class="avatar__letter">
+                                    N
+                                </div>
+                            </div>
+
+                            <div class="badge badge-s badge-secondary top-right">5
+                            </div>
+
+                        </div>
+
+                        <div class="badge-on-avatar">
+                            <div class="avatar">
+                                <img class="avatar__img" src="../images/avatar.jpg" alt="Avatar">
+                            </div>
+
+                            <div class="badge badge-s badge-secondary top-right">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carbon-code my-2">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=559&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-on-avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar__letter%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520N%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-s%2520badge-secondary%2520top-right%2522%253E5%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 559px; height: 376px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="my-1">
+                        We can also use different type of badge with avatar like default , basic, with primary &
+                        secondary color. check below all demos.
                     </p>
 
                     <h4 class="my-2">
-                        Basic Badge (Default)
+                        Basic Badge (Default) / Small / Numbered
                     </h4>
 
-                    <div class="badge">
+                    <p class="my-1">
+                        This is just a basic badge. you can change the size with change of class name.
+                    </p>
+
+                    <div class="code-snippet3 my-2">
+
+                        <div class="badge"></div>
+
+                        <div class="badge">
+                            7
+                        </div>
                     </div>
 
-                    <h4 class="my-2">
-                        Basic Badge Containing Number (Default)
-                    </h4>
 
-                    <div class="badge">
-                        4
-                    </div>
-
-                    <h4 class="my-2">
-                        Basic Small Badge
-                    </h4>
-
-                    <div class="badge badge-s">
-
-                    </div>
 
                     <div class="carbon-code my-2">
                         <iframe
@@ -177,6 +257,9 @@
                     <h4 class="my-2">
                         Basic Badge with different color
                     </h4>
+                    <p class="my-1">
+                        Different color badge, change color just changing the class name.
+                    </p>
 
                     <div class="code-snippet my-2">
 
@@ -202,6 +285,10 @@
                     <h4 class="my-2">
                         Basic Badge with different sizes
                     </h4>
+
+                    <p class="my-1">
+                        Different Size avatar, change size with class name
+                    </p>
 
                     <div class="code-snippet my-2">
                         <div class="badge badge-s">
