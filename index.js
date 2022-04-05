@@ -37,15 +37,3 @@ window.onclick = function (event) {
     modal2.style.display = 'none';
   }
 };
-
-// Toast
-
-function showToast() {
-  var toast1 = document.querySelector('#toast');
-
-  toast1.className = 'show';
-
-  setTimeout(function () {
-    toast1.className = toast1.className.replace('show', '');
-  }, 2000);
-}
