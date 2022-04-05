@@ -1,0 +1,73 @@
+.modal {
+  background-color: var(--color-grey-light-1);
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: var(--color-grey-light-4);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid var(--color-grey-light-4);
+  width: 80%;
+}
+
+.close {
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--black-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal 2 */
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.modal-content2 {
+  animation-duration: 0.4s;
+  animation-name: animatetop;
+  background-color: var(--color-grey-light-4);
+  border: 1px solid var(--color-grey-light-4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  padding: 0;
+  position: relative;
+  width: 80%;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
